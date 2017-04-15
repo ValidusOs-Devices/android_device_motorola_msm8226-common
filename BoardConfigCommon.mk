@@ -93,6 +93,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Power
 TARGET_POWERHAL_VARIANT := qcom
 
+# Memory
+MALLOC_SVELTE := true
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
 
